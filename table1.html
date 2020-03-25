@@ -1,0 +1,119 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title roll="banner"> my first table</title>
+<style type="text/css">
+  }   
+#tab1{
+	border:solid;
+  align-content:bottom;
+}
+ #tab1,th,td{	border:solid;
+	width: 400px;
+    height: 80px;
+   background-color:blue;
+   text-align: center;
+}
+#fld{
+	width: 60%;
+}
+.cap2{font-size: 20px;
+	font-weight: bold;
+color:orange;
+text-decoration: underline;
+}
+
+#nav{
+	background-color: yellow;
+}
+
+#nav,ul,li{list-style-type: none;
+	float: left;
+	margin: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#nav,li,a{
+	text-decoration: none;
+  
+}
+
+#nav,li,a:hover{
+	text-decoration: underline;
+color:red;
+ 
+}
+.style1{
+    color:#FF5733 ; 
+    font-style: bold;
+  }
+   .style2{
+     color:#FFC300; 
+    font-family: arial;
+     font-size: 100;
+   }
+</style>
+
+</head>
+
+<header id="nav"roll="navigation">
+	<ul>
+		<li><a href="#"> Faculty</a></li>
+        <li><a href="#">Student </a></li>
+        <li><a href="#">Teacher</a></li>
+	    <li><a href="#"> Other</a></li>
+	</ul>
+</header>
+<p><p>
+
+<body>
+ <form aria-label for="form">   
+   <fieldset id="fld">
+               <legend aria-roll="contact"><u><b>contact info:</u></b></legend><br/><br/>
+               <b class="style1 ">First Name:</b><input type="text"name="txtbox"><br/><br/>
+               <b class="style1 ">Last Name:</b><input type="text"name="txtbox"><br/><br/>
+               <b class="style1 ">Email:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"name="email"size="40"placeholder="please enter a valid email" required="[a-zA-Z0-9symbol]+">required<br/><br/>
+               <b class="style1 ">Password:</b>&nbsp;&nbsp;<input type="Password"name="pwd"placeholder="enter password"required>*<p/>
+               <!reading order is not sequential for gender> 
+               <b class="style2">Gender:</b><input type="radio"name="gender"value="male"checked="male">male
+                                     <input type="radio"name="gender"value="other">other              
+                                     <input type="radio"name="gender"value="female">female <p/>
+         <!reading order is not sequential for age>    
+        <b class="style2">Age:</b><input type="checkbox"name="cb1"value="18-25"checked="18-25">18-25
+                               <input type="checkbox"name="cb3"value="35-45"    >35-45
+                             <input type="checkbox"name="cb2"value="25-35"    >25-35
+                            
+                     </fieldset>
+                 <form/><p/>
+<table id="tab1">
+<caption class="cap2"><h3>Creating Data Table</caption></h3>
+
+ <tr>
+	<th>id</th>
+    <th>first name</th>
+    <th>last name</th>
+    <th >phone number</th>
+    
+</tr>	
+
+<tr >
+	<td rowspan="2">100</td>
+    <td>robin</td>
+    <td>uddin</td>
+    <td>2152222090</td>
+</tr>	
+
+<tr>
+	
+    <td>masum</td>
+    <td>ali</td>
+    <td>2672545000</td>
+</tr>	
+
+</table>
+
+
+</body>
+</html>
